@@ -1,0 +1,22 @@
+.testimonials {
+	.container {
+	}
+	&__title {
+		text-align: center;
+		margin: 0 0 20px 0;
+	}
+	&__text {
+		text-align: center;
+		margin: 0 0 155px 0;
+	}
+	&__image {
+	}
+	&__list {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 210px;
+	}
+	&__item {
+	}
+}

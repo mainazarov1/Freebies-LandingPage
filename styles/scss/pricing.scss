@@ -1,0 +1,75 @@
+.pricing {
+	margin: 0 0 100px 0;
+  &__title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  &__text {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  &__cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  &__card {
+    flex: 0 0 330px;
+  }
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 0 50px 0;
+  background: #ffffff;
+  border: 2px solid #dddddd;
+  box-sizing: border-box;
+  border-radius: 10px;
+	transition: .3s;
+	&:hover {
+		border-color: $color-red;
+		transform: scale(1.03);
+	}
+	&:hover button {
+		background-color: $color-red;
+		color: $color-white;
+	}
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  &__icon {
+    width: 145px;
+    margin: 0 auto 30px auto;
+  }
+  &__title {
+    text-align: center;
+    margin: 0 0 30px 0;
+  }
+  &__list {
+    margin: 0 0 50px 0;
+  }
+  &__list-item {
+    &::before {
+      content: url(../../assets/icon/check.svg);
+      margin: 0 20px 0 0;
+    }
+  }
+  &__plan {
+  }
+  &__price {
+    text-align: center;
+    font-size: 25px;
+		margin: 0 0 20px 0;
+		span {
+			font-weight: 500;
+			color: $color-black;
+		}
+  }
+  &__button {
+    position: relative;
+    bottom: 0;
+  }
+}

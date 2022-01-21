@@ -1,0 +1,35 @@
+.features {
+	padding: 60px 0 130px 0;
+	.container {
+	}
+	&__wrap {
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-end;
+	}
+	&__image {
+		flex: 1 1 50%;
+	}
+	&__content {
+		flex: 1 1 25%;
+	}
+	&__title {
+		margin: 0 0 20px 0;
+	}
+	&__text {
+		margin: 0 0 20px 0;
+	}
+	&__list {
+	}
+	&__list-item {
+		display: flex;
+		align-items: center;
+		&::before {
+			content: url(../../assets/icon/check-circle.svg);
+			margin: 0 10px -10px 0;
+		}
+		&:not(:last-child) {
+			margin-bottom: 15px;
+		}
+	}
+}

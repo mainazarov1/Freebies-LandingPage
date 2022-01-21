@@ -1,0 +1,36 @@
+// @import "../../node_modules/@glidejs/glide/src/assets/sass/glide.core";
+// @import "../../node_modules/@glidejs/glide/src/assets/sass/glide.theme";
+@import "./reset", "./variants", "./header", "./hero", "./about.scss",
+  "./features", "./pricing", "./testimonials", "./help", "./footer";
+body {
+	overflow-x: hidden;
+}
+.title {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+  color: $color-black;
+}
+.text {
+}
+.list {
+}
+.list-item {
+}
+button {
+  width: 150px;
+  height: 45px;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 19px;
+  color: #f53855;
+  background-color: transparent;
+  border: 1px solid #f53855;
+  border-radius: 45px;
+  transition: 0.3s;
+  &:hover {
+    color: $color-white;
+    background-color: $color-red;
+    cursor: pointer;
+  }
+}
