@@ -4,6 +4,7 @@
   "description": "FREEBIES-LandingPage",
   "main": "index.js",
   "dependencies": {
+    "@glidejs/glide": "^3.5.2",
     "sass": "^1.48.0"
   },
   "devDependencies": {},
