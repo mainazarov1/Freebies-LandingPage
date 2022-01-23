@@ -59,6 +59,10 @@
   a {
     margin: 0 30px 0 0;
 		color: $color-black;
+		transition: .3s;
+		&:hover {
+			color: $color-red;
+		}
   }
 
 }

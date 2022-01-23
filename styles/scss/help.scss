@@ -3,6 +3,8 @@
 
 .help {
   padding: 0 0 240px 0;
+	overflow-x: hidden;
+	// scroll-snap-type: none;
   & .container {
     position: relative;
     // overflow-clip-margin: 150px;
@@ -19,7 +21,6 @@
 .glide {
   &__track {
     width: 120%;
-    overflow-x: hidden;
     margin: 0 0 80px 0;
   }
   &__slides {

@@ -1,9 +1,12 @@
 // @import "../../node_modules/@glidejs/glide/src/assets/sass/glide.core";
 // @import "../../node_modules/@glidejs/glide/src/assets/sass/glide.theme";
 @import "./reset", "./variants", "./header", "./hero", "./about.scss",
-  "./features", "./pricing", "./testimonials", "./help", "./footer";
+  "./features", "./pricing", "./testimonials", "./help", "./footer", "./media";
 body {
-	overflow-x: hidden;
+	// overflow-x: hidden;
+}
+.main {
+	overflow: hidden;
 }
 .title {
   font-size: 35px;

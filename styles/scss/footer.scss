@@ -32,6 +32,10 @@
 		color: #0B132A;
 		& li {
 			margin: 0 0 10px 0;
+			&:hover a {
+				transition: .3s;
+				color: $color-red;
+			}
 		}
 		& li:first-child {
 			margin: 20px 0 10px 0;
@@ -66,5 +70,9 @@
 	}
 	img {
 		position: relative;
+	}
+	&:hover img {
+		transform: scale(1.3);
+		transition: .3s;
 	}
 }
