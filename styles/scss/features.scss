@@ -21,7 +21,7 @@
     display: flex;
     align-items: center;
     &::before {
-      content: url(../../assets/icon/check-circle.svg);
+      content: url(../assets/icon/check-circle.svg);
       margin: 0 10px -10px 0;
     }
     &:not(:last-child) {
