@@ -10,7 +10,7 @@ burger.addEventListener('click', (e) => {
 
 new Glide('.glide', {
 	type: 'carousel',
-	// autoplay: 3000,
+	autoplay: 3000,
 	duration: 1000,
 	animationTimingFunc: 'ease-in-out',
 	startAt: 0,
