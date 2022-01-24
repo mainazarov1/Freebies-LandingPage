@@ -19,7 +19,8 @@
       height: 200px;
       background: #0d1025;
       opacity: 0.06;
-      filter: blur(114px);
+      -webkit-filter: blur(114px);
+              filter: blur(114px);
       border-radius: 10px;
       z-index: -1;
     }

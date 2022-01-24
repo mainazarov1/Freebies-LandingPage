@@ -77,6 +77,8 @@
   .about__column {
     flex: 1 1 auto;
     padding: 30px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
     justify-content: flex-start;
     &:not(:last-child) {
