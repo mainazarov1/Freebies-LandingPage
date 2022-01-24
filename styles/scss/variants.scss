@@ -1,17 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
 
-$color-red: #F53838;
-$color-black: #0B132A;
-$color-gray: #4F5665;
-$color-white: #FFFFFF;
-$font-family: 'Rubik', sans-serif;
+$color-red: #f53838;
+$color-black: #0b132a;
+$color-gray: #4f5665;
+$color-white: #ffffff;
+$font-family: "Rubik", sans-serif;
 
 :root {
-	font-family: $font-family;
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 400;
-	line-height: 30px;
-	letter-spacing: 0em;
-	color: $color-gray;
+  font-family: $font-family;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  color: $color-gray;
+  scroll-behavior: smooth;
+}
+main {
+  overflow: hidden;
+}
+.title {
+  font-size: 35px;
+  font-weight: 500;
+  line-height: 50px;
+  color: $color-black;
+}
+button {
+  width: 150px;
+  height: 45px;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 19px;
+  color: #f53855;
+  background-color: transparent;
+  border: 1px solid #f53855;
+  border-radius: 45px;
+  transition: 0.3s;
+  &:hover {
+    color: $color-white;
+    background-color: $color-red;
+    cursor: pointer;
+  }
 }

@@ -1,5 +1,5 @@
 .pricing {
-	margin: 0 0 100px 0;
+  margin: 0 0 100px 0;
   &__title {
     text-align: center;
     margin-bottom: 20px;
@@ -12,32 +12,29 @@
     display: flex;
     justify-content: space-between;
   }
-  &__card {
-    // flex: 0 0 33%;
-  }
 }
 .card {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-	width: 100%;
+  width: 100%;
   padding: 80px 0 50px 0;
   background: #ffffff;
   border: 2px solid #dddddd;
   box-sizing: border-box;
   border-radius: 10px;
-	transition: .3s;
-	&:nth-child(2) {
-		margin: 0 25px;
-	}
-	&:hover {
-		border-color: $color-red;
-	}
-	&:hover button {
-		background-color: $color-red;
-		color: $color-white;
-	}
+  transition: 0.3s;
+  &:nth-child(2) {
+    margin: 0 25px;
+  }
+  &:hover {
+    border-color: $color-red;
+  }
+  &:hover button {
+    background-color: $color-red;
+    color: $color-white;
+  }
   &__content {
     display: flex;
     flex-direction: column;
@@ -60,16 +57,14 @@
       margin: 0 20px 0 0;
     }
   }
-  &__plan {
-  }
   &__price {
     text-align: center;
     font-size: 25px;
-		margin: 0 0 20px 0;
-		span {
-			font-weight: 500;
-			color: $color-black;
-		}
+    margin: 0 0 20px 0;
+    span {
+      font-weight: 500;
+      color: $color-black;
+    }
   }
   &__button {
     position: relative;
