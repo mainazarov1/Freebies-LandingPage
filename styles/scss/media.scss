@@ -86,6 +86,10 @@
       border-bottom: 2px solid #eeeff2;
     }
   }
+	.about__item {
+		justify-content: stretch;
+    width: 150px;
+	}
   .about__info {
     display: flex;
     flex-direction: column;
